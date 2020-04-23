@@ -100,3 +100,31 @@ textarea {
     top: 7px;
     box-shadow: none;
 }
+
+@media all and (max-width: 1000px) {
+
+    .form input,
+    textarea {
+        width: 85%;
+    }
+}
+
+@media all and (max-width: 670px) {
+
+    .form input,
+    textarea {
+        width: 100%;
+    }
+
+    .form {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .form-left,
+    .form-right {
+        flex: auto;
+        width: 100%;
+    }
+}
